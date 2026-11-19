@@ -1,0 +1,8 @@
+version: 3
+automerge: true
+projects:
+  - name: tailnet
+    dir: tailnet
+    terraform_version: v1.16.5
+    autoplan:
+      when_modified: ["*.tf", "*.yaml", "*.hujson", ".terraform.lock.hcl"]
