@@ -1,0 +1,5 @@
+development:
+  tags: [tag:k8s-operator]
+  infisical:
+    environment: development
+    path: /tailscale/operator

@@ -1,0 +1,18 @@
+{
+	"groups": {
+		"group:developers": ["minhquandinhcao@gmail.com"],
+	},
+
+	"tagOwners": {
+		"tag:k8s-operator":    [],
+		"tag:k8s-development": ["tag:k8s-operator"],
+	},
+
+	"grants": [
+		{
+			"src": ["group:developers"],
+			"dst": ["tag:k8s-development"],
+			"ip":  ["tcp:3306", "tcp:5432"],
+		},
+	],
+}
